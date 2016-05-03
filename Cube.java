@@ -5,16 +5,21 @@
  */
 package cs.pkg445.pkgfinal.project;
 
+import org.lwjgl.opengl.GL11;
 import static org.lwjgl.opengl.GL11.*;
 
-/**
- *
- * @author Kevin
- */
+//instance of a cube object
 public class Cube {
     
 
+    //creates a cube with 6 different colored sides
     public void render(){
+        
+        //prevents edges from being seen through each other
+        GL11.glEnable(GL11.GL_CULL_FACE);
+        GL11.glEnable(GL11.GL_DEPTH_TEST);
+        
+        //draws each of the 6 sides
         glBegin(GL_QUADS);
         
             //Top        

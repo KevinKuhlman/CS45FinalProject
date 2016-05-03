@@ -5,11 +5,13 @@
  */
 package cs.pkg445.pkgfinal.project;
 
-
+//3D vector simulation
 public class Vector3Float {
     
+    //coordinates
     public float x,y,z;
     
+    //creates vector based on input values
     public Vector3Float(int x, int y, int z){
         this.x = x;
         this.y = y;

@@ -23,7 +23,7 @@ public class CS445FinalProject {
 
     //runs the program
     public static void main(String[] args) throws Exception{
-
+        //creates instance of game and runs it
         Game game = new Game();
         game.start();
 
