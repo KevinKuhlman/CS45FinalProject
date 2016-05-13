@@ -1,8 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/***************************************************************
+* file: CS445FinalProject.java
+* author: Kevin Kuhlman
+* class: CS 445 – Computer Graphics
+*
+* assignment: Final Project
+* date last modified: 5/2/2016
+*
+* purpose: The purpose of the program is to generate a scene similar
+* to one within Minecraft
+****************************************************************/
 package cs.pkg445.pkgfinal.project;
 
 //3D vector simulation
